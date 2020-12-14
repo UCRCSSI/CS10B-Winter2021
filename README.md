@@ -10,7 +10,7 @@
 * [SI Discord]()
 
 ## Guidelines 
-**CS10B will have a lot of new and complex concepts.**
+**CS10B will have a lot of new and complex concepts.**  
 **There will be less, but larger extra practice compared to last quarter**
 
 #### Practice Problems
