@@ -1,4 +1,4 @@
-# CS10A-SI 
+# CS10B-SI - Stephen Dong 
 
 ## Times
 * MW 1pm - 2pm
@@ -11,7 +11,7 @@
 
 ## Guidelines 
 
-(Note: CS10B is going to have larger code than in CS10A. There will be less extra practice, but longer ones compared to last quarter)
+CS10B is going to have larger code than in CS10A. There will be less extra practice, but longer ones compared to last quarter
 ---
 
 #### Practice Problems
