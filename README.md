@@ -10,6 +10,7 @@
 * [SI Discord]()
 
 ## Guidelines 
+
 (Note: CS10B is going to have larger code than in CS10A. There will be less extra practice, but longer ones compared to last quarter)
 ---
 
