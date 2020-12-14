@@ -10,7 +10,8 @@
 * [SI Discord]()
 
 ## Guidelines 
-CS10B is going to have larger code than in CS10A. There will be less extra practice, but longer ones compared to last quarter
+**CS10B will have a lot of new and complex concepts.**
+**There will be less, but larger extra practice compared to last quarter**
 
 #### Practice Problems
 * **Basic** - Simple problems similar to what you see in the Zybooks pages and may see in exams
