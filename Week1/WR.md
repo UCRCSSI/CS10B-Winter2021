@@ -1,2 +1,2 @@
-# Week 1 Wednesday & Thursday
+# Week 1 - Wednesday & Thursday
 
