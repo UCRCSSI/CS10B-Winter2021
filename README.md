@@ -1,22 +1,13 @@
-# CS10B-SI - Stephen Dong 
+# CS10BSI - Stephen Dong 
 
 ## Times
-* MW 1pm - 2pm
-* TR 1pm - 2pm
+* MTWR 1pm - 2pm
 
 ## Links
 * [Zybooks]()
-* [SI Syllabus]()
-* [SI Discord]()
+* [SI Syllabus](https://docs.google.com/document/d/1ZbE2rx0hWHhsq28BE_vif0BQpnvNdRqRriwh7AZN5pg/edit?usp=sharing)
+* [SI ---]()
 
 ## Guidelines 
 **CS10B will have a lot of new and complex concepts.**  
 **There will be less, but larger extra practice compared to last quarter**
-
-#### Practice Problems
-* **Basic** - Simple problems similar to what you see in the Zybooks pages and may see in exams
-* **Moderate** - Problems that require a little more thinking. These may feel around the difficulty of challenge activities
-* **Difficult** - Problems that are generally classified as Hard. These most resemble lab difficulty
-* **Creative** - Problems that focus on thinking out of the box. These can vary in difficulty as the focus isn't the hardness, but rather the use of what you've learned
-* **Challenging** - Problems that I generally wouldn't give during a 1 hour SI session, but are good practice. These generally require you to use and understand every aspect of the chapter
-* **EXTRA** - These problems are usually slightly harder and longer than **Challenging**. They are also mostly blank slate, with barely any instructions that will walk you through the problem.
