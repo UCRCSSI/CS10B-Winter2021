@@ -1,8 +1,6 @@
 # Week 1 - Wednesday & Thursday
 
-###Multiple Return Values Without PBR 
----
-[(TO PDF)](Vectors&Functions.pdf)
+### Multiple Return Values Without PBR [(to pdf)](Vectors&Functions.pdf)
 
 This practice problem will use everything learned in Chapter 1 and CS10A
 Problem:
