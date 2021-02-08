@@ -30,7 +30,7 @@ Create a program that will:
         It should Print
     </details>
 
-### Problem 3
+### Problem 3 (Putting it all together) - HARD
 **You don't need a destructor for this problem, you can implement one if you want**  
 
 Create a program that will have a `Graph` class that will store multiple `Point` objects as pointers. 
