@@ -34,8 +34,8 @@ Create a program that will:
 **You don't need a destructor for this problem, you can implement one if you want**  
 
 Create a program that will have a `Graph` class that will store multiple `Point` objects as pointers. 
-Ask the user to enter a bunch of coordinates `x y` and store it in a `Graph` object. 
-Delete the point at the middle index (print out which coordinate was deleted). 
+Ask the user to enter 9 coordinates `x y` and store it in a `Graph` object. 
+Delete 5th item in the list (print out which coordinate was deleted). 
 Then sort each `Point` s.t. the coordinates closest to the x-axis is first, farthest is last. 
 Create a second `Graph` object of `Point` objects that will point at the same coordinates as the other vector. 
 Sort the second `Graph` the same way as the first vector, except aligned to the y-axis.
