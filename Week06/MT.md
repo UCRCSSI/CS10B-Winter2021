@@ -42,9 +42,7 @@ Sort the second `Graph` the same way as the first vector, except aligned to the 
 For both vectors, delete the lowest and highest coordinates (**Be careful of double frees and/or unwanted deletes**).
 Print out the coordinates in both vectors in their sorted order. (**Note: If you deleted a coordinate in a vector, it should still show up in the other vector, unless it's deleted in both**).
 
-* How do we check to see if there's another pointer pointing at a place in memory?
-    * There's a way, for this program, to cheese the deletion of points and prevent double frees while also preventing unwanted deletions. 
-      Try not to use this, but if you can't think of a better way, it's fine.
+* How do we make sure that we can avoid a double free or an unwanted deletion?
     * I would suggest not writing the deletion of the closest/farthest as a class member.
 * You will most likely need a `sort()` method, and an `add()` method. 
 * Accessors would be nice. 
