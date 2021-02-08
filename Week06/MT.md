@@ -1,6 +1,6 @@
 # Week 6 - Monday & Tuesday
 
-### Problem 1
+### Problem 1 (1:10)
 To help you understand what exactly is being stored in pointers, let's output them!  
 Create a program that will:
 1. Ask the user for an integer. Store this as a normal integer.
@@ -12,7 +12,7 @@ Create a program that will:
     * What is the value supposed to mean? (Discuss with your group)
 6. Call for me using the "Ask for help" button in order to provide an answer for these questions.
 
-### Problem 2
+### Problem 2 (1:15)
 Pointers are used for dynamic memory allocation. What is that? (Discuss it with group)  
 Create a program that will:
 1. Dynamically allocate an int variable.
@@ -30,7 +30,43 @@ Create a program that will:
         It should Print
     </details>
 
-### Problem 3 (Putting it all together) - HARD
+### Problem 3 (1:25)
+You know what hanging pointers are now and what a double free is.
+But let's say that we do want to delete one of the pointer's, but we want the other pointer to still point at it.
+1. Create a `Foo` class with a public variable `x = 3`.
+2. Create a vector of `Foo` pointer objects.
+3. Fill the vector with 5 dynamically allocated `Foo` objects.
+4. Now create a blank `Foo` pointer (name it however you want) and point it at the first element in the vector
+5. Delete the first element in the vector
+6. Now print the `x` variable of your `Foo` pointer
+7. Oh No! You've deleted the first element of the vector, which also deleted the memory at your pointer. 
+   What ever shall we do!?
+8. It's Rewind Time! Rewind your code to before you deleted the first element.
+9. Now, add a few lines of code that will let use delete the first element in the vector, BUT your pointer can still access that memory location
+    * What do you do? Discuss and implement it with your group. Provide an explanation with your group and call for me using the "Ask for help" button to explain.
+10. Congratulations! You've learned to delete a pointer without actually deleting the memory location!
+You've done it! Now you are ready to put it all together :D Good Luck!
+
+### Problem 4 (Putting it all together) - EASY (1:30)
+[(Starter Code)](Codes%20&%20Practice%20Problems/main.cpp)  
+If you want a challenge, do problem 5 instead.
+Make a Point pointer point to a new Point with 20 and 30 as the x,y. 
+Print the x times the y of the pointer and delete the pointer.
+Make a new pointer point to a new Point with 100 and -100 as the x,y
+Print the difference of the x and y times the sum of x and y.
+Make a vector of Point pointers. Fill the vector with any 3 points you want.
+Print the vector's points like the following:
+`"X: {x}, Y: {y}" where {x} and {y} are the vector.at(i)'s x and y`
+
+* Problem 5 covers iterators and a few functions involving it. I want ya'll to learn that bit too, so go ahead and do this points as well:
+    * Look at this link: https://www.cplusplus.com/reference/vector/vector/erase/
+        * More specifically, how do you use this? (Discuss with your group).
+    * Also look at this: https://www.cplusplus.com/reference/vector/vector/begin/
+        * More specifically, what is an iterator? How is it useful? How might you use it? (Look at ex line 11)
+        * Where have you seen this before?
+    * Discuss this with your group. Once your group has a general agreement as to what an iterator is and how to use it, call for me using the "Ask for help" button.
+
+### Problem 5 (Putting it all together) - HARD (1:30)
 [(Starter Code)](Codes%20&%20Practice%20Problems/main.cpp)  
 **You don't need a destructor for this problem, you can implement one if you want**  
 
@@ -56,4 +92,4 @@ Print out the coordinates in both vectors in their sorted order. (**Note: If you
 * Or maybe this: https://www.cplusplus.com/reference/vector/vector/begin/
     * More specifically, what is an iterator? How is it useful? How might you use it? (Look at ex line 11)
     * Where have you seen this before?
-    * Discuss this with your group. Once your group has a general agreement as to what an iterator is, call for me using the "Ask for help" button.
+* Discuss this with your group. Once your group has a general agreement as to what an iterator is and how to use it, call for me using the "Ask for help" button.
