@@ -42,11 +42,15 @@ Sort the second `Graph` the same way as the first vector, except aligned to the 
 For both vectors, delete the lowest and highest coordinates (**Be careful of double frees and/or unwanted deletes**).
 Print out the coordinates in both vectors in their sorted order. (**Note: If you deleted a coordinate in a vector, it should still show up in the other vector, unless it's deleted in both**).
 
+* Assume all accesses to list will be valid (no out of bounds)
+* **Try to dynamically allocate the `Graph` objects**
+  
+
 * How do we make sure that we can avoid a double free or an unwanted deletion?
     * I would suggest not writing the deletion of the closest/farthest as a class member.
 * You will most likely need a `sort()` method, and an `add()` method. 
 * Accessors would be nice. 
-* Maybe overloading an operator can be useful
+* Maybe overloading an operator can be useful... or is it?
 * Maybe this link can help out: https://www.cplusplus.com/reference/vector/vector/erase/
     * More specifically, how do you use this? (Discuss with your group).
 * Or maybe this: https://www.cplusplus.com/reference/vector/vector/begin/
