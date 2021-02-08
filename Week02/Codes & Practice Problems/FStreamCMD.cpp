@@ -9,7 +9,7 @@ int main(int argc, char* argv[]) {  // char* is a c-string
 //    if (!(argc > 1)) {    // Always check user inputted enough arguments
 //        return 1;
 //    }
-//    cout << argv[0] << endl;
+    cout << argc << endl;
 
 //    ofstream fout;  // output file stream
 //    ifstream fin;   // input file stream
