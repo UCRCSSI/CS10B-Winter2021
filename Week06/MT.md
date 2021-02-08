@@ -44,7 +44,6 @@ Print out the coordinates in both vectors in their sorted order. (**Note: If you
 
 * Assume all accesses to list will be valid (no out of bounds)
 * **Try to dynamically allocate the `Graph` objects**
-  
 
 * How do we make sure that we can avoid a double free or an unwanted deletion?
     * I would suggest not writing the deletion of the closest/farthest as a class member.
