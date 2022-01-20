@@ -11,7 +11,7 @@ int* Foo() {
     Node* ptr;
     ptr = head;
     b = ptr->numptr;
-    ptr->numptr = a;    
+    ptr->numptr = a;    // hanging pointer but no memory leaks
     a = b;
     delete c;
     c = a;
